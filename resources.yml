@@ -1,7 +1,7 @@
 resources:
   - name: image1-test
     type: image
-    integration: docker_integration
+    integration: docker-integration
     source:
       name: "revathird/sample_node"
       isPull: true
@@ -9,7 +9,7 @@ resources:
   
   - name: image2-test
     type: image
-    integration: docker_integration
+    integration: docker-integration
     source:
       name: "revathird/imagenode"
       isPull: true
