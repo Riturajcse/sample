@@ -17,6 +17,7 @@ jobs:
     type: manifest
     steps:
       - GET: image1-test
-      - GET: image3-test   
+      - GET: image3-test  
+      - PUT: image2-test
 
 
