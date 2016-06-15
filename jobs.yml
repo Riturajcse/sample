@@ -20,6 +20,7 @@ jobs:
       - GET: image1-test
       - GET: image3-test  
       - PUT: image2-test
+      - GET: project1-test
       
       
 
