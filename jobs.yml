@@ -25,7 +25,7 @@ jobs:
   - name: job14
     type: manifest
     steps:
-      - GET: job13
+     # - GET: job13
       - GET: job12
      
 
