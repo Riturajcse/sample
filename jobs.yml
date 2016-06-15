@@ -4,7 +4,7 @@ jobs:
     steps:
       - GET: image1-test
       - GET: image2-test
-      - PUT: image3-test
+     # - PUT: image3-test
 
   - name: job12
     type: manifest
