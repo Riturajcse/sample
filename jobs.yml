@@ -22,6 +22,10 @@ jobs:
       - PUT: image2-test
       - GET: project1-test
       
-      
-
+  - name: job14
+    type: manifest
+    steps:
+      - GET: job13
+      - GET: job12
+     
 
