@@ -23,13 +23,13 @@ jobs:
       - GET: project1-test
       - GET: job12
       
-  - name: job14
-    type: manifest
-    steps:
-      - GET: job13
-      - GET: job12
+ # - name: job14
+  #  type: manifest
+   # steps:
+    #  - GET: job13
+     # - GET: job12
       #- GET: job11
-      - PUT: project2-test
+      #- PUT: project2-test
       
       
 
