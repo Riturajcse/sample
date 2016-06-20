@@ -63,6 +63,14 @@ resources:
       name: "revathird/sample_node"
       isPull: true
       tag: latest
+      
+  - name: test2
+    type: image
+    integration: docker-integration
+    source:
+      name: "revathird/sample_node"
+      isPull: true
+      tag: latest
 
  # - name: myEcsCluster
   #  type: ecsCluster
