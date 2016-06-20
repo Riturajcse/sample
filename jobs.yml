@@ -31,6 +31,9 @@ jobs:
       #- GET: job11
       #- PUT: project2-test
       
-      
+  - name: job15
+    type: manifest
+    steps:
+      - GET: test4 
 
 
