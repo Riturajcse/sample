@@ -71,7 +71,23 @@ resources:
       name: "revathird/sample_node"
       isPull: true
       tag: latest
+  
   - name: test3
+    type: image
+    integration: docker-integration
+    source:
+      name: "revathird/sample_node"
+      isPull: true
+      tag: latest
+      
+  - name: test4
+    type: image
+    integration: docker-integration
+    source:
+      name: "revathird/sample_node"
+      isPull: true
+      tag: latest
+  - name: test5
     type: image
     integration: docker-integration
     source:
