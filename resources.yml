@@ -35,7 +35,13 @@ resources:
       name: "revathird/imagenode"
       isPull: true
       tag: latest
-  
+  - name: image6-test
+    type: image
+    integration: docker-integration
+    source:
+      name: "revathird/imagenode"
+      isPull: true
+      tag: latest
   - name: project1-test
     type: gitRepo
     integration: github
