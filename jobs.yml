@@ -36,4 +36,8 @@ jobs:
     steps:
       - GET: test4 
 
+  - name: job16
+    type: manifest
+    steps:
+      - GET: test4 
 
