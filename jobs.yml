@@ -3,7 +3,7 @@ jobs:
     type: manifest
     steps:
       - GET: image1-test
-     # - PUT: image1-test
+      - GET: image5-test
      # - GET: image3-test
      # - PUT: image3-test
 
@@ -12,6 +12,7 @@ jobs:
     steps:
       - GET: project1-test
       - PUT: image1-test
+      - GET: image5-test
       #- PUT: image2-test
 
   - name: job13
@@ -27,6 +28,7 @@ jobs:
     type: manifest
     steps:
       - GET: job13
+      - GET: image5-test
      # - GET: job12
       #- GET: job11
       #- PUT: project2-test
@@ -35,9 +37,11 @@ jobs:
     type: manifest
     steps:
       - GET: test4 
+      - GET: image5-test
 
   - name: job16
     type: manifest
     steps:
       - GET: test4 
+      - GET: image5-test
 
