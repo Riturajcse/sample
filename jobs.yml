@@ -14,6 +14,7 @@ jobs:
       - GET: project1-test
       - PUT: image1-test
       - GET: image5-test
+      - GET: image4-test
       #- PUT: image2-test
 
   - name: job13
@@ -21,6 +22,7 @@ jobs:
     steps:
       - GET: image1-test
       - GET: image3-test  
+      - GET: image4-test
       #- PUT: image2-test
       - GET: project1-test
       - GET: job12
@@ -30,6 +32,7 @@ jobs:
     steps:
       - GET: job13
       - GET: image5-test
+      - GET: image4-test
      # - GET: job12
       #- GET: job11
       #- PUT: project2-test
@@ -39,10 +42,12 @@ jobs:
     steps:
       - GET: test4 
       - GET: image5-test
+      - GET: image4-test
 
   - name: job16
     type: manifest
     steps:
       - GET: test4 
       - GET: image5-test
+      - GET: image4-test
 
