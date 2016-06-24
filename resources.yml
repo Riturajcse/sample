@@ -48,6 +48,12 @@ resources:
     source:
       name: "shiphitchcock3/samplePyt" #you should've access to this project (even if it's public)
       branch: master
+  - name: sampleClo-test
+    type: gitRepo
+    integration: github
+    source:
+      name: "shiphitchcock3/sampleClo" #you should've access to this project (even if it's public)
+      branch: master
       
   - name: project2-test
     type: gitRepo
