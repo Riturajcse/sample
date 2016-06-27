@@ -37,17 +37,4 @@ jobs:
       #- GET: job11
       #- PUT: project2-test
       
-  - name: job15
-    type: manifest
-    steps:
-      - GET: test4 
-      - GET: image5-test
-      - GET: image4-test
-
-  - name: job16
-    type: manifest
-    steps:
-      - GET: test4 
-      - GET: image5-test
-      - GET: image4-test
-
+ 
