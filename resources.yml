@@ -21,47 +21,15 @@ resources:
       name: "revathird/imagenode"
       isPull: true
       tag: latest
-  - name: image4-test
-    type: image
-    integration: docker-integration
-    source:
-      name: "revathird/imagenode"
-      isPull: true
-      tag: latest
-  - name: image5-test
-    type: image
-    integration: docker-integration
-    source:
-      name: "revathird/imagenode"
-      isPull: true
-      tag: latest
-  - name: image6-test
-    type: image
-    integration: docker-integration
-    source:
-      name: "revathird/imagenode"
-      isPull: true
-      tag: latest
+ 
   - name: project1-test
     type: gitRepo
     integration: github
     source:
       name: "shiphitchcock3/samplePyt" #you should've access to this project (even if it's public)
       branch: master
-  - name: sampleClo-test
-    type: gitRepo
-    integration: github
-    source:
-      name: "shiphitchcock3/sampleClo" #you should've access to this project (even if it's public)
-      branch: master
-      
-  - name: project2-test
-    type: gitRepo
-    integration: github
-    source:
-      name: "shiphitchcock3/sampleGol" #you should've access to this project (even if it's public)
-      branch: master
-      
+
+  
   - name: test1
     type: image
     integration: docker-integration
@@ -70,36 +38,7 @@ resources:
       isPull: true
       tag: latest
       
-  - name: test2
-    type: image
-    integration: docker-integration
-    source:
-      name: "revathird/sample_node"
-      isPull: true
-      tag: latest
-  
-  - name: test3
-    type: image
-    integration: docker-integration
-    source:
-      name: "revathird/sample_node"
-      isPull: true
-      tag: latest
-      
-  - name: test4
-    type: image
-    integration: docker-integration
-    source:
-      name: "revathird/sample_node"
-      isPull: true
-      tag: latest
-  - name: test5
-    type: image
-    integration: docker-integration
-    source:
-      name: "revathird/sample_node"
-      isPull: true
-      tag: latest
+ 
  # - name: myEcsCluster
   #  type: ecsCluster
    # integration: pranay-ecs
