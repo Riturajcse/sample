@@ -1,5 +1,5 @@
 jobs:
-  - name: job11
+  - name: test-job
     type: manifest
     steps:
       - GET: image1-test
