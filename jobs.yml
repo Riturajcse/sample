@@ -1,8 +1,0 @@
-jobs:
-  - name: job11
-    type: manifest
-    steps:
-      - GET: image1-test
-    
-  
- 
