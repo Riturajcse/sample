@@ -9,7 +9,7 @@ resources:
   
   - name: image2-test
     type: image
-    integration: ddocker integrtion
+    integration: docker integrtion
     source:
       name: "revathird/imagenode"
       isPull: true
