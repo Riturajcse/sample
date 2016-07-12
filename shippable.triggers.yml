@@ -7,5 +7,6 @@ triggers:
   - name: trigger-dv-man
     type: trigger
     source:
+      message: 'tesetinwglthtbth12 triifgfuggujythre in yml oekke13ewuh52'
       counter: 1    
 
