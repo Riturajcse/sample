@@ -15,6 +15,12 @@ jobs:
         applyTo:
           - pipe1-image
       - GET: trigger-dv-man
+  - name: test-job1
+    type: manifest
+    steps:
+      - GET: test-job
+      - GET: pipe1-image
+      - GET: triggertest1
   - name: pipe-test
     type: ecsDeploy
     steps:
