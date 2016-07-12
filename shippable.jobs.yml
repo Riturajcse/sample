@@ -6,6 +6,9 @@ jobs:
       - GET: image2-test
       - GET: image3-test
       - GET: triggertest1
+  
+  - name: test-rsyncrepo
+    type: rSync
+    steps:
+      - GET: project1-test
       
-      
-    
