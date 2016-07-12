@@ -6,5 +6,13 @@ jobs:
       - GET: image2-test
       - GET: image3-test
       - GET: triggertest1
-  
+  - name: pipe-man
+    type: manifest
+    steps:
+      - GET: pipe1-image
+      - GET: pipe1-opts
+      - GET: pipe1-params
+        applyTo:
+          - pipe1-image
+      - GET: triggertest1
  
