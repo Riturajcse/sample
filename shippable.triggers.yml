@@ -4,6 +4,8 @@ triggers:
     source:
       message: 'tesetinwglthtbth12 triifgfuggujythre in yml oekke13ewuh52'
       
-      
-      
+  - name: trigger-dv-man
+    type: trigger
+    source:
+      counter: 1    
 
