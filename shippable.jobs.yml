@@ -24,8 +24,9 @@ jobs:
     type: manifest
     steps:
       - GET: test-job1
-      #- GET: pipe1-image
-    #  - GET: triggertest1
+      - GET: image4-test
+      - PUT: test1
+  
   - name: pipe-test
     type: ecsDeploy
     steps:
