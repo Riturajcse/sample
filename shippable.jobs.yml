@@ -20,6 +20,11 @@ jobs:
     steps:
       - GET: test-job
       - GET: pipe1-image
+  - name: test-job2
+    type: manifest
+    steps:
+      - GET: test-job1
+      #- GET: pipe1-image
     #  - GET: triggertest1
   - name: pipe-test
     type: ecsDeploy
