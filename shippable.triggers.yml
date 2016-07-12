@@ -16,3 +16,8 @@ triggers:
     source:
       message: 'tesetinwglthtbth12 triifgfuggujythree in yml oekke13ewuh52322'
       counter: 1
+  - name: triggertest3
+    type: trigger
+    source:
+      message: 'tesetinwglthtbth12 triifgfuggujythree in yml oekke13ewuh52322'
+      counter: 1
