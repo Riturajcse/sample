@@ -33,9 +33,4 @@ resources:
       isPull: true
       tag: latest
       
-  - name: project2-test
-    type: syncRepo
-    integration: github
-    source:
-      name: "RevathiRD/sample_pipelines" #you should've access to this project (even if it's public)
-      branch: master
+  
