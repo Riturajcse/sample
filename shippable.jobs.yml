@@ -20,7 +20,7 @@ jobs:
     steps:
       - GET: test-job
       - GET: pipe1-image
-      - GET: triggertest1
+    #  - GET: triggertest1
   - name: pipe-test
     type: ecsDeploy
     steps:
