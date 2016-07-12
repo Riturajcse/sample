@@ -7,8 +7,4 @@ jobs:
       - GET: image3-test
       - GET: triggertest1
   
-  - name: test-rsyncrepo1
-    type: runCI
-    steps:
-      - GET: project1-test
-      
+ 
