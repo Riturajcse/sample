@@ -15,4 +15,8 @@ jobs:
         applyTo:
           - pipe1-image
       - GET: triggertest1
- 
+  - name: pipe-test
+    type: ecsDeploy
+    steps:
+      - GET: pipe-man
+      - GET: env-test
