@@ -4,7 +4,7 @@ triggers:
     type: trigger
     source:
       message: 'tesetinwglthtbth12 triifgfuggujythree in yml oekke13ewuh52122'
-      counter: 1    
+      counter: 2  
 
   - name: triggertest2
     type: trigger
