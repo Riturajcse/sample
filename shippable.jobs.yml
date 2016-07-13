@@ -20,12 +20,7 @@ jobs:
     steps:
       - GET: test-job
       - GET: pipe1-image
-  - name: test-job3
-    type: manifest
-    steps:
-      - GET: image5-test
-      #- GET: pipe1-image
-      #- GET: image5-test
+  
   - name: test-job2
     type: manifest
     steps:
