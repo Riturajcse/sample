@@ -9,7 +9,7 @@ jobs:
   - name: pipe-man
     type: manifest
     steps:
-      - GET: pipe1-image
+      #- GET: pipe1-image
       - GET: pipe1-opts
       - GET: pipe1-params
         applyTo:
