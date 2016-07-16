@@ -9,3 +9,11 @@ build:
   ci:
     - python --version
   cache: true
+  
+integrations:
+  notifications:
+    - integrationName: irc
+      type: irc
+      recipients:
+        - "chat.freenode.net#boroboro"
+      on_start: always
